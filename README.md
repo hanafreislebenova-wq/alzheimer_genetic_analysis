@@ -17,3 +17,6 @@ ClinVar variant_summary dataset from NCBI
 
 ## Results
 The analysis identified APP, PSEN1 and PSEN2 as the most prominent genes in the Alzheimer subset
+
+## Visualisation
+![Top genes](figures/alzheimers_top_genes.png)
