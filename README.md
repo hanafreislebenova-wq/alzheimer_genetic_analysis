@@ -1,19 +1,19 @@
-# alzheimer_genetic_analysis
+# Alzheimer genetic analysis
 This project analyze Alzheimer-associated genetic variants from the ClinVar database
 
-# Objectives
+## Objectives
 -Filter Alzheimer-related varinats
 -Identify the most frequently affected genes
 -Create weighted gene risk score
 -Visualize results
 
-# Data source
+## Data source
 -ClinVar variant_summary dataset from NCBI
 
-# Tools
+## Tools
 -Python
 -pandas
 -Matplotlib
 
-# Results
+## Results
 The analysis identified APP, PSEN1 and PSEN2 as the most prominent genes in the Alzheimer subset
