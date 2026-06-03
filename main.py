@@ -34,13 +34,13 @@ plt.ylabel("Number of reported variants") # y axis name
 plt.xlabel("Gene") #x axis name
 plt.xticks(rotation=45) #rotate the names of gene
 plt.tight_layout() #Automatically adjusts the margins
-plt.savefig(r"C:\Users\hanaf\Desktop\projekt AD\alzheimers_top_genes.png", dpi=300)
+plt.savefig(r"C:\Users\Desktop\projekt AD\alzheimers_top_genes.png", dpi=300)
 plt.show() #show the graph
 
 print(alz.shape)
 print(alz["ClinicalSignificance"].value_counts())  # signifikance
-alz.to_csv(r"C:\Users\hanaf\Desktop\projekt AD\alzheimers_subset.csv", index=False) #save the Ad subset
-df.to_csv(r"C:\Users\hanaf\Desktop\projekt AD\clinvar_all.csv", index=False) #save the whole dataset
+alz.to_csv(r"C:\Users\Desktop\projekt AD\alzheimers_subset.csv", index=False) #save the Ad subset
+df.to_csv(r"C:\Users\Desktop\projekt AD\clinvar_all.csv", index=False) #save the whole dataset
 
 
 # Risk score (weighted)
@@ -81,7 +81,7 @@ plt.title("Weighted Alzheimer Gene Risk Score\n TOP 10 genes")
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-plt.savefig(r"C:\Users\hanaf\Desktop\projekt AD\weighted_risk_score.png", dpi=300)
+plt.savefig(r"C:\Users\Desktop\projekt AD\weighted_risk_score.png", dpi=300)
 plt.show()
 
 # Normalized score
