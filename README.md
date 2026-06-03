@@ -20,6 +20,6 @@ The analysis identified APP, PSEN1 and PSEN2 as the most prominent genes in the 
 
 ## Visualisation
 - Top genes
-![Top genes](alzheimers_top_genes.png)
+![Top genes](figures/alzheimers_top_genes.png)
 - Weighted risk after normalisation
-![Weihted risk normalized](weighted_risk_score_normalized.png)
+![Weihted risk normalized](figures/weighted_risk_score_normalized.png)
